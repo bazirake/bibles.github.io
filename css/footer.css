@@ -1,0 +1,32 @@
+.footer{
+
+    background-color: #0e2350;
+    color: white;
+}
+
+.ftco-footer {
+	font-size: 16px;
+	padding: 7em 0;
+	background: darken(darken,10%);
+}
+	.ftco-footer-logo {
+		text-transform: uppercase;
+		letter-spacing: .1em;
+	}
+	.ftco-footer-widget,h2  {
+		
+			font-weight: normal;
+			color: white;
+			margin-bottom: 40px;
+			font-size: 18px;
+			font-weight: 700;
+            margin-top: 14px;
+		}
+		.uls, .lis , .as, .spans {
+			
+						color: rgba(255,255,255,.5);
+						font-size: 18px;
+					}
+				
+			
+		
