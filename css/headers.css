@@ -1,0 +1,78 @@
+.navbar-light .navbar-nav .nav-item a.nav-link:focus {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 0px #c7c5c5;
+    color: #396EB0;
+  }
+  #navbar {
+    box-shadow: 0px 1px 6px 0px #c7c5c5;
+    background: #fbfbfb;
+    font-size: 14px;
+    min-height: 70px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+  }
+  #navbar a.nav-link {
+    padding: 0 25px;
+  }
+  #navbar a.nav-link:hover {
+    text-decoration: none;
+    color: #396EB0;
+  }
+  #navbar .nav-item.active a {
+    color: #396EB0;
+  }
+  #navbar .navbar-brand {
+    color: #FC997C;
+    font-weight: 1000;
+  }
+  #navbar .search-form {
+    margin-right: 15px;
+    height: 52px;
+  }
+  #navbar .search-form .input-group {
+    margin-top: 10px;
+  }
+  #navbar .search-form .input-group .form-control {
+    height: 28px;
+    font-size: 14px;
+    border-color: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  #navbar .search-form .input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #396EB0;
+  }
+  #navbar .search-form .input-group button {
+    height: 28px;
+    margin-left: -2px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #396EB0;
+    border-color: #396EB0;
+  }
+  #navbar .search-form .input-group button:focus {
+    box-shadow: none;
+  }
+  #navbar .search-form .input-group button i {
+    font-size: 13px;
+  }
+  #navbar .search-form .input-group button i::before {
+    vertical-align: 4px;
+    line-height: 1px;
+  }
+  
+  #navbar .register {
+    background: #396EB0;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 16px;
+  }
+  #navbar .register a {
+    color: white;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }/*# sourceMappingURL=header.component.css.map */

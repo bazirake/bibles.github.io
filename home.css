@@ -1,0 +1,425 @@
+
+
+
+  /* SU */
+  * {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    margin-left: 300px;
+    padding-top: 150px;
+}
+.btn {
+    cursor: pointer;
+    font-size: 28px;
+    box-shadow: none !important;
+    border-radius: 3px;
+  text-align: center;
+
+}
+
+.btn.btn-primary {
+    color: rgb(255, 255, 255) !important;
+    background: #396EB0 !important;
+ 
+    
+}
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    margin-top: 60px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /* Ministries */
+
+  /* Heading and subheading */
+.heading-section .subheading {
+  font-size: 18px;
+  display: inline-block;
+  margin:0 auto;
+  color:#FC997C;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative; 
+}
+
+.heading-section .subheading:after {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  content: '';
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 3px;
+  margin-top: -1px;
+  background: #96bb7c;
+}
+
+.heading-section .subheading:before {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  content: '';
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 3px;
+  margin-top: -1px;
+  background: #96bb7c; 
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FC997C;
+ 
+}
+.paraphrase{
+  font-size: 20px;
+}
+
+/* Ministry Section */
+
+
+.content-section {
+  position: relative;
+  height: fit-content;
+  /*padding: 6em 0px;*/
+  
+}
+@media (max-width: 767.98px) {
+.content-section {
+  padding: 6em 0; } }
+
+.bg-secondary {
+  background-color: whitesmoke !important;
+}
+
+.morebutton{
+  padding: 0.50rem!important;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: none !important;
+  border-radius: 5px;
+  color: rgb(255, 255, 255) !important;
+  background: #396EB0 !important;
+  margin-left: 135px;
+  
+}
+.arrow {
+  background-color: #396EB0;
+  width: 1000%;
+  height: 110px;
+}
+
+.headerone{
+  margin-top: -200px;
+}
+
+
+.heading-section .subheading {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 5px;
+  color:#FC997C;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative; 
+}
+
+.heading-section .subheading:after {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  content: '';
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 3px;
+  margin-top: -1px;
+  background: #96bb7c;
+}
+
+.heading-section .subheading:before {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  content: '';
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 3px;
+  margin-top: -1px;
+  background: #96bb7c; 
+}
+
+.heading-section h2 {
+  font-size: 60px;
+  font-weight: 400;
+  float: left; 
+}
+@media (max-width: 767.98px)
+{
+.heading-section h2 {
+  font-size: 28px; } 
+}
+
+.heading-section.heading-section-white .subheading {
+  color: rgba(255, 255, 255, 0.9); }
+
+.heading-section.heading-section-white h2 {
+  font-size: 40px;
+  color: #fff; }
+
+.heading-section.heading-section-white p {
+  color: rgba(255, 255, 255, 0.9); }
+.img,
+
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+
+
+.containere {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+   
+@media (min-width: 576px) {
+.containere {
+  max-width: 540px; }
+}
+@media (min-width: 768px) {
+.containere {
+  max-width: 720px; } 
+}
+@media (min-width: 992px) {
+.containere {
+  max-width: 960px; }
+}
+@media (min-width: 1200px) {
+.containere {
+  max-width: 1140px; } 
+}
+
+.containere-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.block-7 {
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 0;
+  background: #fff;
+  box-shadow: 5px 24px 48px 13px rgb(0 0 0 / 5%);
+  transition: all 0.3s ease;
+}
+
+.img{
+  width: 100%;
+  height:350px;
+}
+.block-7, img{
+  text-align: center; 
+ 
+}
+
+.btn.btn-primary {
+  color: rgb(255, 255, 255) !important;
+  background: #396EB0 !important;
+  
+}
+.btn {
+  cursor: pointer;
+  font-size: 28px;
+  box-shadow: none !important;
+  border-radius: 3px;
+}
+.morebutton{
+  padding: 0.50rem!important;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: none !important;
+  border-radius: 5px;
+  color: rgb(255, 255, 255) !important;
+  background: #396EB0 !important;
+  margin-left: 135px;
+  
+}
+
+
+/* Image slider */
+.mall-slide {
+    position: absolute;
+    top: 155px;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 430px;
+    z-index: -1;
+}
+
+.mall-slide .slid-content {
+    width: 100%;
+    height: 320px !important;
+    overflow: hidden;
+}
+
+.mall-slide .slid-content .mall-carousel-ind {
+    position: absolute;
+    top: 290px;
+    width: 100%;
+    line-height: 0!important;
+    text-align: center;
+    font-size: 0;
+    z-index: 10;
+}
+
+.mall-carousel-ind ul {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.mall-carousel-ind li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    font-size: 14px;
+    background-color: #e2e2e2;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+
+  .mall-carousel-ind li.mall-this {
+      background-color: #fff;    
+      filter: alpha(opacity=100);
+      -moz-opacity: 1;
+      opacity: 1;
+      width: 30px;
+      border-radius: 14px;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

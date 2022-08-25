@@ -1,0 +1,19 @@
+app-root{
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #33302b;
+  }
+  @media (min-width: 600px){
+  body {
+      font-size: 16px;
+  }
+  }
+  
