@@ -133,7 +133,7 @@ textarea.input100 {
 }
 
 .input100:focus {
-  background: #e6e6e6;
+  background: #2c1f1f;
 }
 
 /*------------------------------------------------------------------
@@ -180,7 +180,7 @@ textarea.input100 {
   height: 62px;
   font-family: Raleway-Bold;
   font-size: 16px;
-  color: #fff;
+
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -224,9 +224,6 @@ textarea.input100 {
   text-align: left;
   padding: 40px 0 10px 0;
 }
-
-
-
 
 /*...................................................................................*/
 
@@ -430,7 +427,6 @@ display: flex;
 flex-direction: column;
 flex: auto;
 padding: 20px;
-
 }
 
 *, :after, :before {
@@ -755,19 +751,19 @@ box-shadow: none !important;
 border: 1px solid rgba(255, 255, 255, 0.2); }
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: rgba(255, 255, 255, 0.5) !important; }
+  color: rgba(28, 17, 17, 0.5) !important; }
 .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: rgba(255, 255, 255, 0.5) !important; }
+  color: rgba(28, 17, 17, 0.5) !important; }
 .form-control:-ms-input-placeholder {
   /* IE 0+ */
-  color: rgba(255, 255, 255, 0.5) !important; }
+  color: rgba(28, 17, 17, 0.5) !important; }
 .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: rgba(255, 255, 255, 0.5) !important; }
+  color: rgba(28, 17, 17, 0.5) !important; }
 .form-control:focus, .form-control:active {
   background: transparent;
-  border-color: rgba(255, 255, 255, 0.5) !important; }
+  border-color: rgba(28, 17, 17, 0.5) !important; }
 
 textarea.form-control {
 height: inherit !important; }
