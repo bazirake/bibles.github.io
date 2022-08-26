@@ -13,6 +13,7 @@ textarea {
 
 textarea:focus, input:focus {
   border-color: transparent !important;
+
 }
 
 
@@ -651,7 +652,6 @@ min-height: 150px;
 
 }
 
-
 .services .icon-box {
 text-align: center;
 padding: 60px 30px;
@@ -686,20 +686,20 @@ background: #2E4C6D;
 }
 
 .heading-section .subheading:before {
-position: absolute;
-top: 50%;
-right: -60px;
-content: '';
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-width: 50px;
-height: 3px;
-margin-top: -1px;
-background: #2E4C6D; 
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  content: '';
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 3px;
+  margin-top: -1px;
+  background: #2E4C6D; 
 }
 
-.services .icon-box {
+.services .icon-box{
 text-align: center;
 padding: 60px 30px;
 transition: all ease-in-out 0.3s;
@@ -707,12 +707,9 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 min-height: 300px;
 }
 
-
-
 .flaticon{
 color: #2E4C6D;
 }
-
 
 .services .icon-box:hover {
 background: #2E4C6D; 
@@ -750,7 +747,7 @@ background-position: center center; }
 .form-control {
 height: 52px;
 background: transparent;
-color: rgba(255, 255, 255, 0.8) !important;
+color: rgba(30, 28, 28, 0.8) !important;
 font-size: 14px;
 border-radius: 0px;
 -webkit-box-shadow: none !important;
