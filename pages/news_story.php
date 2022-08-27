@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../news.css"/> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="contact.html">
+    <base href="news_story.php">
 </head>
 <body>
   
@@ -22,7 +22,7 @@
            <header>
             <nav class="navbar navbar-expand-lg navbar navbar-light" id="navbar">
                <div class="container-fluid">
-                 <a class="navbar-brand" href="../index.html">Scripture Union </a>
+                 <a class="navbar-brand" href="../index.php">Scripture Union </a>
                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navs">
                    <span class="oi oi-menu"></span> Menu
                  </button>
@@ -35,31 +35,31 @@
                      </div>
                    </form>
                    <ul class="navbar-nav">
-                     <li class="nav-item active"> <a href="../index.html" class=" nav-link" >Home</a></li>
+                     <li class="nav-item active"> <a href="../index.php" class=" nav-link" >Home</a></li>
                      <!--<li class="nav-item "><a routerLink="about" class="nav-link">About</a></li>-->
                      <div class="nav-item dropdown">
                          <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Ministries </a></li>
                          <div class="dropdown-menu">
-                        <li class="nav-item "><a href="bible.html" class="dropdown-item"> . Bible Ministry </a></li>
+                        <li class="nav-item "><a href="bible.php" class="dropdown-item"> . Bible Ministry </a></li>
                          <li class="nav-item " style="background-color: blanchedalmond;"><a href="#" class="dropdown-item"> Family Ministry </a></li>
-                         <li class="nav-item "><a href="children.html" class="dropdown-item"> .Children Ministry </a></li>
-                         <li class="nav-item "><a href="youth.html" class="dropdown-item"> .Youth Ministry </a></li>
-                         <li class="nav-item "><a href="couple.html" class="dropdown-item"> .Couple Ministry </a></li>
+                         <li class="nav-item "><a href="children.php" class="dropdown-item"> .Children Ministry </a></li>
+                         <li class="nav-item "><a href="youth.php" class="dropdown-item"> .Youth Ministry </a></li>
+                         <li class="nav-item "><a href="couple.php" class="dropdown-item"> .Couple Ministry </a></li>
                     </div>
                   </div>
                      <div class="nav-item dropdown">
                        <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Resources</a></li>
                        <div class="dropdown-menu">
-                         <li class="nav-item "><a href="resource.html" class="dropdown-item"> Resources </a></li>
-                         <li class="nav-item "><a href="training.html" class="dropdown-item"> Training Center </a></li> 
+                         <li class="nav-item "><a href="resource.php" class="dropdown-item"> Resources </a></li>
+                         <li class="nav-item "><a href="training.php" class="dropdown-item"> Training Center </a></li> 
                        </div>
                      </div>
-                     <li class="nav-item"><a href="about.html" class="nav-link"> About Us </a></li>
-                     <li class="nav-item"><a href="news_story.html" class="nav-link"> News and Stories </a></li>
+                     <li class="nav-item"><a href="about.php" class="nav-link"> About Us </a></li>
+                     <li class="nav-item"><a href="news_story.php" class="nav-link"> News and Stories </a></li>
                    </ul>
                  </div>
                  <div class="register">
-                   <a href="contact.html" class="nav-item nav-link rounded">Contact Us</a>
+                   <a href="contact.php" class="nav-item nav-link rounded">Contact Us</a>
                 </div>
               </div>
              </nav>

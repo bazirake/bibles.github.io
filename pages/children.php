@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../children.css"/> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="children.html">
+    <base href="children.php">
 </head>
 <body>
   
@@ -24,7 +24,7 @@
            <header>
             <nav class="navbar navbar-expand-lg navbar navbar-light" id="navbar">
                <div class="container-fluid">
-                 <a class="navbar-brand" href="../index.html">Scripture Union </a>
+                 <a class="navbar-brand" href="../index.php">Scripture Union </a>
                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navs">
                    <span class="oi oi-menu"></span> Menu
                  </button>
@@ -42,26 +42,26 @@
                      <div class="nav-item dropdown">
                          <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Ministries </a></li>
                          <div class="dropdown-menu">
-                        <li class="nav-item "><a href="bible.html" class="dropdown-item"> . Bible Ministry </a></li>
+                        <li class="nav-item "><a href="bible.php" class="dropdown-item"> . Bible Ministry </a></li>
                          <li class="nav-item " style="background-color: blanchedalmond;"><a href="#" class="dropdown-item"> Family Ministry </a></li>
-                         <li class="nav-item "><a href="children.html" class="dropdown-item"> .Children Ministry </a></li>
-                         <li class="nav-item "><a href="youth.html" class="dropdown-item"> .Youth Ministry </a></li>
-                         <li class="nav-item "><a href="couple.html" class="dropdown-item"> .Couple Ministry </a></li>
+                         <li class="nav-item "><a href="children.php" class="dropdown-item"> .Children Ministry </a></li>
+                         <li class="nav-item "><a href="youth.php" class="dropdown-item"> .Youth Ministry </a></li>
+                         <li class="nav-item "><a href="couple.php" class="dropdown-item"> .Couple Ministry </a></li>
                     </div>
                   </div>
                      <div class="nav-item dropdown">
                        <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Resources</a></li>
                        <div class="dropdown-menu">
-                         <li class="nav-item "><a href="resource.html" class="dropdown-item"> Resources </a></li>
-                         <li class="nav-item "><a href="training.html" class="dropdown-item"> Training Center </a></li> 
+                         <li class="nav-item "><a href="resource.php" class="dropdown-item"> Resources </a></li>
+                         <li class="nav-item "><a href="training.php" class="dropdown-item"> Training Center </a></li> 
                        </div>
                      </div>
-                     <li class="nav-item"><a href="about.html" class="nav-link"> About Us </a></li>
-                     <li class="nav-item"><a href="news_story.html" class="nav-link"> News and Stories </a></li>
+                     <li class="nav-item"><a href="about.php" class="nav-link"> About Us </a></li>
+                     <li class="nav-item"><a href="news_story.php" class="nav-link"> News and Stories </a></li>
                    </ul>
                  </div>
                  <div class="register">
-                   <a href="contact.html" class="nav-item nav-link rounded">Contact Us</a>
+                   <a href="contact.php" class="nav-item nav-link rounded">Contact Us</a>
                 </div>
               </div>
              </nav>
@@ -71,109 +71,7 @@
           <!--Start of container-->
             <section>
              
-        <!-- <section class="section ">
-  <div class="images pt-5">
-  
-        
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-12 heading-section text-center ">
-            <span class="subheading"> About Us </span>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-           
-          </div>
-</div>
-  </div>
-</section>
-
-  <section class="mb-160">
-    <div class="container">
-    <section class="row pt-5">
-        <div class="grid-last_col col-6 pt-5">
-              <h3 class="h3 mb-05em"> Our Vision</h3>
-              <div class=" typo-tiny text-body-1 color-secondary mb-1em">
-                  <p><span style="font-weight: 400;"> Our vision is to expand the expectations and transform the quality of how mobility solutions must be delivered to customers. Expertise, Dedication, Innovation and Efficiency are our pillars. In all our efforts we have the client at our heart and an unwavering goal to provide them with the best service.</span></p>
-              </div>
-            </div>  
-          
-          
-              <div class="grid-last_col col-6">
-                <div><img class="img" src="assets/images/logo.jpg" width="510" height="400"></div>
-          </div>
-      
-   
-   
-  
-
-
-
-  <section class=" row pt-5"> 
-
-    <div class="grid-last_col col-6">
-      <div><img class="img" src="assets/images/logo.jpg" width="510" height="400"></div>
-        </div>
-      
-          <div class="grid-last_col col-6 pt-5">
-              <h3 class="h3 mb-05em"> Our Mission </h3>
-              <div class=" ">
-                  <p><span style="font-weight: 400;">We offer the posibilities of managing properties and payments in an efficient way. Expertise, Dedication, Innovation and Efficiency are our pillars. In all our efforts we have the client at our heart and an unwavering goal to provide them with the best service.</span></p>
-              </div>
-            </div>
-              
-
-          
-
-</section>
-
-    <!--<div class="heading-section pr-md-5">
-        <h2 class="mb-4" >e-Kodesha</h2>
-        <section class="one" >
-        <h1 > Our Mission </h1>
-        <p> We offer the posibilities of managing properties and payments in an efficient way.</p>
-      </section>
-
-      <aside  >
-        <h1 > Our Vision  </h1>
-        
-        <p>Our vision is to expand the expectations and transform the quality of how mobility solutions must be delivered to customers.</p>
-      </aside>
-
-      <section class="two" >
-        <h1 > Our Values  </h1>
-        <p>Expertise, Dedication, Innovation and Efficiency are our pillars. In all our efforts we have the client at our heart and an unwavering goal to provide them with the best service.</p>
-      </section>
-      </div>
-    -->
-    <!--
-</section>
-
-<section class="row pt-5">
-  <div class="col-4 text-center ">
-    <img class="imgicon" src="../assets/images/quality.png" alt="beno" >
-    <h4 class="text-center"> Quality </h4>
-    <hr>
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor  <br> incididunt incididunt incididunt incididunt</p>
-  </div>
-  <div class="col-4 text-center">
-    <img class="imgicon" src="../assets/images/fast.png" alt="beno" >
-    <h4 class="text-center"> Fast </h4>
-    <hr>
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor  <br> incididunt incididunt incididunt incididunt</p>
-  </div>
-  <div class="col-4 text-center">
-    <img class="imgicon" src="../assets/images/insurancee.png" alt="beno" >
-    <h4 class="text-center"> Insurance </h4>
-    <hr>
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor  <br> incididunt incididunt incididunt incididunt</p>
-  </div>
  
-</section>
-<div class="col-md-12 heading-section text-center pt-5">
-  <span class="subheading mb-5"> Our Team </span>
-</div>
-</div>
-</section>
-  -->
   <section class="section">
     <div class="images pt-5">
           <div class="row justify-content-center mb-5">

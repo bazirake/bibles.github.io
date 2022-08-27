@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="footer.css"/> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="index.html">
+    <base href="index.php">
 </head>
 <body>
     <section>
@@ -19,7 +19,7 @@
            <header>
             <nav class="navbar navbar-expand-lg navbar navbar-light" id="navbar">
                <div class="container-fluid">
-                 <a class="navbar-brand" href="index.html">Scripture Union </a>
+                 <a class="navbar-brand" href="index.php">Scripture Union </a>
                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navs">
                    <span class="oi oi-menu"></span> Menu
                </button>
@@ -32,27 +32,27 @@
                      </div>
                    </form>
                    <ul class="navbar-nav">
-                     <li class="nav-item active"> <a href="index.html" class=" nav-link" >Home</a></li>
+                     <li class="nav-item active"> <a href="index.php" class=" nav-link" >Home</a></li>
                      <!--<li class="nav-item "><a routerLink="about" class="nav-link">About</a></li>-->
                      <div class="nav-item dropdown">
                          <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Ministries </a></li>
                          <div class="dropdown-menu">
-                        <li class="nav-item "><a href="pages/bible.html" class="dropdown-item"> . Bible Ministry </a></li>
+                        <li class="nav-item "><a href="pages/bible.php" class="dropdown-item"> . Bible Ministry </a></li>
                          <li class="nav-item " style="background-color: blanchedalmond;"><a href="#" class="dropdown-item"> Family Ministry </a></li>
-                         <li class="nav-item "><a href="pages/children.html" class="dropdown-item"> .Children Ministry </a></li>
-                         <li class="nav-item "><a href="pages/youth.html" class="dropdown-item"> .Youth Ministry </a></li>
-                         <li class="nav-item "><a href="pages/couple.html" class="dropdown-item"> .Couple Ministry </a></li>
+                         <li class="nav-item "><a href="pages/children.php" class="dropdown-item"> .Children Ministry </a></li>
+                         <li class="nav-item "><a href="pages/youth.php" class="dropdown-item"> .Youth Ministry </a></li>
+                         <li class="nav-item "><a href="pages/couple.php" class="dropdown-item"> .Couple Ministry </a></li>
                      </div>
                   </div>
                      <div class="nav-item dropdown">
                        <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Resources</a></li>
                        <div class="dropdown-menu">
-                         <li class="nav-item "><a href="pages/resource.html" class="dropdown-item"> Resources </a></li>
-                         <li class="nav-item "><a href="pages/training.html" class="dropdown-item"> Training Center </a></li> 
+                         <li class="nav-item "><a href="pages/resource.php" class="dropdown-item"> Resources </a></li>
+                         <li class="nav-item "><a href="pages/training.php" class="dropdown-item"> Training Center </a></li> 
                        </div>
                      </div>
-                     <li class="nav-item"><a href="pages/about.html" class="nav-link"> About Us </a></li>
-                     <li class="nav-item"><a href="pages/news_story.html" class="nav-link"> News and Stories </a></li>
+                     <li class="nav-item"><a href="pages/about.php" class="nav-link"> About Us </a></li>
+                     <li class="nav-item"><a href="pages/news_story.php" class="nav-link"> News and Stories </a></li>
                    </ul>
                  </div>
                  <div class="register">
@@ -106,7 +106,7 @@
            <div class="col">
              <div class="">
            <div  class="paragraph">
-             <a class="btn btn-primary mt-5" href="pages/register.html" style="margin-left: 40%;">Become a Member </a></div>
+             <a class="btn btn-primary mt-5" href="pages/register.php" style="margin-left: 40%;">Become a Member </a></div>
              </div>
              <a href="#" class="col  align-items-center button-link">
              </a>
@@ -285,9 +285,9 @@
                      </div>
                    </div>
                    <div class="col-md">
-                     <div class="footer-widget mb-4">
-                         <h2 class="heading-2">Have a Questions?</h2>
-                         
+                    <div class="footer-widget mb-4">
+                     <h2 class="heading-2">Have a Questions?</h2>
+    
                      </div>
                    </div>
                  </div>

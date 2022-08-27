@@ -11,11 +11,9 @@
     <link rel="stylesheet" href="../footer.css"/> 
     <link rel="stylesheet" href="../news.css"/> 
     <link rel="stylesheet" href="../bible.css"/> 
-    <link rel="stylesheet" href="../children.css"/> 
-    <link rel="stylesheet" href="../youth.css"/> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="youth.html">
+    <base href="bible.php">
 </head>
 <body>
   
@@ -25,7 +23,7 @@
            <header>
             <nav class="navbar navbar-expand-lg navbar navbar-light" id="navbar">
                <div class="container-fluid">
-                 <a class="navbar-brand" href="../index.html">Scripture Union </a>
+                 <a class="navbar-brand" href="../index.php">Scripture Union </a>
                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navs">
                    <span class="oi oi-menu"></span> Menu
                  </button>
@@ -38,31 +36,31 @@
                      </div>
                    </form>
                    <ul class="navbar-nav">
-                     <li class="nav-item active"> <a href="../index.html" class=" nav-link" >Home</a></li>
+                     <li class="nav-item active"> <a href="../index.php" class=" nav-link" >Home</a></li>
                      <!--<li class="nav-item "><a routerLink="about" class="nav-link">About</a></li>-->
                      <div class="nav-item dropdown">
                          <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Ministries </a></li>
                          <div class="dropdown-menu">
                         <li class="nav-item "><a href="bible.html" class="dropdown-item"> . Bible Ministry </a></li>
                          <li class="nav-item " style="background-color: blanchedalmond;"><a href="#" class="dropdown-item"> Family Ministry </a></li>
-                         <li class="nav-item "><a href="children.html" class="dropdown-item"> .Children Ministry </a></li>
-                         <li class="nav-item "><a href="youth.html" class="dropdown-item"> .Youth Ministry </a></li>
-                         <li class="nav-item "><a href="couple.html" class="dropdown-item"> .Couple Ministry </a></li>
+                         <li class="nav-item "><a href="children.php" class="dropdown-item"> .Children Ministry </a></li>
+                         <li class="nav-item "><a href="youth.php" class="dropdown-item"> .Youth Ministry </a></li>
+                         <li class="nav-item "><a href="couple.php" class="dropdown-item"> .Couple Ministry </a></li>
                     </div>
                   </div>
                      <div class="nav-item dropdown">
                        <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Resources</a></li>
                        <div class="dropdown-menu">
-                         <li class="nav-item "><a href="resource.html" class="dropdown-item"> Resources </a></li>
-                         <li class="nav-item "><a href="training.html" class="dropdown-item"> Training Center </a></li> 
+                         <li class="nav-item "><a href="resource.php" class="dropdown-item"> Resources </a></li>
+                         <li class="nav-item "><a href="training.php" class="dropdown-item"> Training Center </a></li> 
                        </div>
                      </div>
-                     <li class="nav-item"><a href="about.html" class="nav-link"> About Us </a></li>
-                     <li class="nav-item"><a href="news_story.html" class="nav-link"> News and Stories </a></li>
+                     <li class="nav-item"><a href="about.php" class="nav-link"> About Us </a></li>
+                     <li class="nav-item"><a href="news_story.php" class="nav-link"> News and Stories </a></li>
                    </ul>
                  </div>
                  <div class="register">
-                   <a href="contact.html" class="nav-item nav-link rounded">Contact Us</a>
+                   <a href="contact.php" class="nav-item nav-link rounded">Contact Us</a>
                 </div>
               </div>
              </nav>
@@ -71,106 +69,115 @@
            <!--start of carousel-->
           <!--Start of container-->
             <section>
-                <head> 
-                    <link rel="stylesheet" href="/kodeshaweb/src/app/contract/contract.component.css">
-                    </head>
-                    <section class="section ">
-                        <div class="images pt-5" style="background-color: #f6fafd;">
-                          <div class="row justify-content-center mb-5">
-                             <div class="col-md-12 heading-section text-center ">
-                            <span class="subheading"> Youth Ministry </span> 
-                            </div>
-                      </div>
-                        </div>
-                       
-                     <section class="mb-100">
-                        <div class="container">
-                        <section class="row pt-5">
-                            <div class="grid-last_col col-6 pt-5">
-                                  <h3 class="h3 mb-05em"> Youth  </h3>
-                                  <div class=" typo-tiny text-body-1 color-secondary mb-1em">
-                                      <p><span style="font-weight: 400;">Youth and School Ministry is mainly involved in promoting the Bible reading in High schools annd university. It makes follow up to the Bible clubs initiated in schools and help in terms of strengthening them. Visits are paid to them and Bible quizzes are organized in a competion way with the target of promoting the Bible reading. Bible camps are organized during the holidays aiming at training the leaders, sharing the word of God and testimonies.
-                                      </span></p>
-                                      <p><span style="font-weight: 400;">It is also engaged in Life skills programs leading at behavior change especially aiming at fighting against HIV/AIDS amongst the youth.  </span></p>
-                                  </div>
-                                </div>  
-                              
-                              
-                                  <div class="grid-last_col col-sm-6 pb-5">
-                                      <div><img class="img" src="../images/SU/PHOTOS WEB/Youth.JPG" width="600" height="400"></div>
-                              </div>
-                          
-                        </section>
-                       
-                      
-                        <div class="row">
-                           
-                    
-                          <div class="col-md-6 ">
-                            <div class="block-7">
-                  
-                              <!--<div class="img" style="background-image: url(/kodeshaweb/src/assets/images/work-7.jpg);"></div>-->
-                              <div><img class="img" src="../images/SU/PHOTOS WEB/Training (1).JPG"></div>
-                              <div class="p-4">
-                                <h3> Camps  </h3>
-                                <p> Content Coming Soon  </p>
-                                <a style="font-size: 14px;" routerLink="bible" class="btn btn-primary d-block "> Learn More </a>
-                                
-                              </div>
-                              
-                            </div>
-                          </div>
-                  
-                          <div class="col-md-6 ">
-                            <div class="block-7">
-                              <div><img class="img" src="../images/SU/PHOTOS WEB/bible1.JPG"></div>
-                              <div class="p-4">
-                                <h3> Bible Clubs </h3>
-                                <p> Content Coming Soon </p>
-                                <a style="font-size: 14px;" routerLink="bible" class="btn btn-primary d-block "> Learn More </a>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                      </div>
-                    </section>
-                  
-                  
-                    <section class="content-section">
-                      <div class="container" style="margin-top: 10px;">
-                  
-                        <div class="row">
-                          
-                  
-                          <div class="col-md-6 ">
-                            <div class="block-7">
-                  
-                              <!--<div class="img" style="background-image: url(/kodeshaweb/src/assets/images/work-7.jpg);"></div>-->
-                              <div><img class="img" src="../images/SU/PHOTOS WEB/Displaying.JPG"></div>
-                              <div class="p-4">
-                                <h3> Life Skills </h3>
-                                <p> Content Coming Soon  </p>
-                                <a style="font-size: 14px;" routerLink="bible" class="btn btn-primary d-block "> Learn More </a>
-                              </div>
-                             
-                            </div>
-                          </div>
-                          <div class="col-md-6 ">
-                            <div class="block-7">
-                              <!--<div class="img" style="background-image: url(/kodeshaweb/src/assets/images/work-7.jpg);"></div>-->
-                              <div><img class="img" src="../images/SU/PHOTOS WEB/Training (1).JPG" ></div>
-                              <div class="p-4">
-                                <h3>Missions </h3>
-                                <p> Content Coming Soon </p>
-                                <a style="font-size: 14px;" routerLink="bible" class="btn btn-primary d-block "> Learn More </a>
-                              </div>
-                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
-                  
+             
+  
+
+ <section class="section">
+    <div class="images">
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-12 heading-section text-center ">
+              <span class="subheading mt-5">Bible  Ministry </span>
+             
+            </div>
+  </div>
+    </div>
+   
+</section>
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+      <section class=" row mt-1">
+        <div class="grid-last_col col-12 p-5 content">
+          <p class=" ">This ministry exists to encourage people to meet God through the Bible, we emphasize the significance of the Bible as a whole.
+              Systematic Bible reading meetings are organized and people are encouraged to read it so that they come to repentance, faith, obedience to God and worship. 
+                We encourage a Bible reading which is thoughtful, prayerful and regular and which enables the reader to respond to the message of the whole Bible rather than to isolated passages. 
+                  This ministry also strives to interpret the text in a way that enables people, in their contemporary situations, to understand for themselves the message of the Bible from its original context. </p>
+        </div>
+      </section>
+    </div>
+
+
+    <section class="section row justify-content-center pt-4">
+      <div class="row col-md-8 col-sm-12 section-body justify-content-center">
+          <div class="col-md-6 col-sm-12 section-right">
+              <h3 class="section-header"><span>Bible Reading Notes </span></h3>
+              <div class="divider"></div>
+              <div>
+                  <span>Scripture Union Rwanda produces annually the Bible reading notes in Kinyarwanda language as a tool that helps and guides christians to meet God daily. It is distributed all over the country and abroad.
+                  </span>
+              </div>
+              
+          </div>
+          <div class="col-md-6 col-sm-12 row section-left">
+              <img class="img" src="../images/bible ministry main/bible .jpeg">
+          </div>
+      </div>
+  </section>
+  
+  <section class="section row justify-content-center">
+      <div class="row col-md-8 col-sm-12 section-body justify-content-center">
+          <div class="col-md-6 col-sm-12 row section-left">
+              <img class="img" src="../images/bible ministry main/evangelism.jpeg">
+          </div>
+          <div class="col-md-6 col-sm-12 section-right">
+              <h3 class="section-header"> <span> Evangelism </span></h3>
+              <div class="divider"></div>
+              <div>
+                  <span>The great commission compels us to take the Good news to all people of all ages and regions. So SU Members organize evangelism campaigns and visit churches, organize local camps that attract people to hear about the good news of Jesus Christ.
+                  </span>
+              </div>
+              
+          </div>
+      </div>
+  </section>
+  
+  <section class="section row justify-content-center ">
+    <div class="row col-md-8 col-sm-12 section-body justify-content-center">
+        <div class="col-md-6 col-sm-12 section-right">
+            <h3 class="section-header"><span> Adult Camps </span></h3>
+            <div class="divider"></div>
+            <div>
+                <span>The camps normally known as Bible camps are organized at the national and local levels. It is with intention to have deeper Bible study times, explaining more about specific Bible truths, fellowship of Christians from different churches and evangelism campaigns.
+                </span>
+            </div>
+            
+        </div>
+        <div class="col-md-6 col-sm-12 row section-left">
+            <img class="img" src="../images/bible ministry main/Adults.JPG">
+        </div>
+    </div>
+</section>
+
+<section class="section row justify-content-center">
+    <div class="row col-md-8 col-sm-12 section-body justify-content-center">
+        <div class="col-md-6 col-sm-12 row section-left">
+            <img class="img" src="../images/bible ministry main/committe.jpeg">
+        </div>
+        <div class="col-md-6 col-sm-12 section-right">
+            <h3 class="section-header"> <span>Local committees</span></h3>
+            <div class="divider"></div>
+            <div>
+                <span>These are made by members living in the same area. They organize activities such as: evangelism, Bible study meetings, availing Bible engagement books to help people in their communities, organizing children's, youth, and married meetings and evangelism, ...)
+                </span>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+   
+   
+  <!-- End Services Section -->
+
+
+
      </section>
                <!--end of container-->
        
@@ -199,8 +206,8 @@
                          <li class="lis"><a class="as" href="#"><span class="fa spans fa-chevron-right mr-2"></span>Become a member</a></li>
                          <li class="lis"><a class="as" href="#"><span class="fa spans fa-chevron-right mr-2"></span>Donate</a></li>
                        </ul>
-                    </div>
-                  </div>
+                     </div>
+                   </div>
                    <div class="col-md">
                      <div class="footer-widget mb-4 ml-md-4">
                        <h2 class="heading-2">About Us</h2>
