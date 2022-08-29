@@ -3,7 +3,6 @@
 <head>
   <title>Bible society of Rwanda</title>
     <meta charset="UTF-8">
- 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../header.css"/>
     <link rel="stylesheet" href="../home.css"/>
@@ -18,11 +17,10 @@
     <base href="youth.php">
 </head>
 <body>
-  
     <section>
-        <div class="container-fluids">
-           <!--start of navigation bar menu-->
-           <header>
+       <div class="container-fluids">
+          <!--start of navigation bar menu-->
+         <header>
             <nav class="navbar navbar-expand-lg navbar navbar-light" id="navbar">
                <div class="container-fluid">
                  <a class="navbar-brand" href="../index.php">Scripture Union </a>
@@ -41,7 +39,7 @@
                      <li class="nav-item active"> <a href="../index.php" class=" nav-link" >Home</a></li>
                      <!--<li class="nav-item "><a routerLink="about" class="nav-link">About</a></li>-->
                      <div class="nav-item dropdown">
-                         <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Ministries </a></li>
+                      <li class="nav-item "><a href="#" class="nav-link dropdown-toggle"> Ministries </a>  </li>
                          <div class="dropdown-menu">
                         <li class="nav-item "><a href="bible.php" class="dropdown-item"> . Bible Ministry </a></li>
                          <li class="nav-item " style="background-color: blanchedalmond;"><a href="#" class="dropdown-item"> Family Ministry </a></li>
@@ -106,11 +104,9 @@
                               <div><img class="img" src="../images/SU/PHOTOS WEB/Training (1).JPG"></div>
                               <div class="p-4">
                                 <h3> Camps  </h3>
-                                <p> Content Coming Soon  </p>
+                                <p> Content Coming Soon </p>
                                 <a style="font-size: 14px;" routerLink="bible" class="btn btn-primary d-block "> Learn More </a>
-                                
                               </div>
-                              
                             </div>
                           </div>
                   
@@ -129,7 +125,6 @@
                     </section>
                     <section class="content-section">
                       <div class="container" style="margin-top: 10px;">
-                  
                         <div class="row">
                           <div class="col-md-6 ">
                             <div class="block-7">
@@ -140,7 +135,6 @@
                                 <p> Content Coming Soon  </p>
                                 <a style="font-size: 14px;" routerLink="bible" class="btn btn-primary d-block "> Learn More </a>
                               </div>
-                             
                             </div>
                           </div>
                           <div class="col-md-6 ">
@@ -152,16 +146,13 @@
                                 <p> Content Coming Soon </p>
                                 <a style="font-size: 14px;" routerLink="bible" class="btn btn-primary d-block "> Learn More </a>
                               </div>
-                              
                             </div>
                           </div>
                         </div>
                       </div>
-                    </section>
-                  
-     </section>
+                    </section> 
+               </section>
                <!--end of container-->
-       
            <!--start of footer -->
            <footer class="footer section" >
                <div class="container">
@@ -211,19 +202,18 @@
                      </div>
                    </div>
                    <div class="col-md">
-                     <div class="footer-widget mb-4">
+                   <div class="footer-widget mb-4">
                          <h2 class="heading-2">Have a Questions?</h2>
-                         
                      </div>
                    </div>
                  </div>
-                 <div class="row">
-                   <div class="col-md-12 text-center">
-                     <p>
-             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Scripture Union @2021 <i class="icon-heart color-danger" aria-hidden="true"></i><a href="https://colorlib.com" target="_blank"></a>
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                <p>
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Scripture Union @2021 <i class="icon-heart color-danger" aria-hidden="true"></i><a href="https://colorlib.com" target="_blank"></a>
              </p>
-                </div>
-                 </div>
+             </div>
+               </div>
                </div>
              </footer>
           <!--end of footer-->
