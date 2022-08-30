@@ -7,14 +7,5 @@
    	die("connection fail".pg_connect_error());
  }
 
- $sql1=pg_query($con,'SELECT * FROM member');
- if($sql1){
-  while($resul=pg_fetch_object($sql1)){
- 	echo $resul->name;	
- 	}
- }
- else{
- 	echo "no";
- }
 
 ?>
