@@ -15,7 +15,7 @@ village,localcom,currentcom)VALUES('$_POST[fname]','$_POST[lname]','$_POST[email
    $result=pg_query($con,$query);
    if($result)
     {
-     echo sendResponse('New Member has been registered successfully',200);
+      echo sendResponse('New Member has been registered successfully',200);
     }
   }
  function sendResponse($message,$status){

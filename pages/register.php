@@ -6,7 +6,6 @@
     <title>Bible society of Rwanda</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <link rel="stylesheet" href="../header.css"/>
     <link rel="stylesheet" href="../home.css"/>
     <link rel="stylesheet" href="../index.css"/>
@@ -18,7 +17,6 @@
     <link rel="stylesheet" href="../couple.css"/>
     <link rel="stylesheet" href="../resource.css"/>
     <link rel="stylesheet" href="../register.css"/>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="register.php">
@@ -123,7 +121,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group row">
-                                    <label class="col-sm-4 col-form-label">LocalCommunity</label>
+                                    <label class="col-sm-4 col-form-label ">LocalCommunity</label>
                                     <div class="col-sm-8">
                                         <input type="text" name="locmunity" class="form-control" placeholder="Rusizi"  required>
                                     </div>
@@ -219,7 +217,7 @@
                                  <div class="col-md-6">
                                      <div class="float-right mb-2">
                                          <button type="submit"  color="accent" class="btn btn-success">Cancel</button>
-                                         <button  id=save-id color="primary" type="submit" class="btn btn-primary ml-4 ">
+                                         <button  id=save-id color="primary" type="submit" class="btn btn-primary  ml-4">
                                              Save
                                          </button>
                                      </div>
@@ -306,6 +304,9 @@
 <script>
     $("#feedback").css({'display':'none'});
     $('#member-form').submit(function(e){
+     var loader='<span class="spinner-grow " role="status"></span>' +
+         '<span>Saving...</span>';
+      $("#save-id").html(loader);
      var path='../database/api/member.php';
       e.preventDefault();
        var fdata= $(this).serialize();
@@ -320,10 +321,12 @@
              $("#feedback").css({'display':'block'});
              $('#data-show').html(response.mess);
              document.getElementById("member-form").reset();
+                $("#save-id").html('Save');
             }
             else if(response.status===404){
              $("#feedback").css({'display':'block'});
              $('#data-show').html(response.me);
+              $("#save-id").html('Save');
             }
           }
         });
