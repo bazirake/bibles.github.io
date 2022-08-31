@@ -4,8 +4,7 @@
  port=5432 dbname=dev16dn1389kf3  user=mjrioleaafsccl password=761ac21c836fc18b50561f702465dcb2d9c56c1f9a23b2de91e7ff8f51fc34af";
   $con=pg_connect($server);
   if(!$con){
-   	die("connection fail".pg_connect_error());
+   die("connection fail".pg_errormessage($con));
  }
-
-
+  
 ?>
