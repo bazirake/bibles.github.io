@@ -305,7 +305,7 @@
     $("#feedback").css({'display':'none'});
     $('#member-form').submit(function(e){
      var loader='<span class="spinner-grow " role="status"></span>' +
-         '<span>Saving...</span>';
+      '<span>Saving...</span>';
       $("#save-id").html(loader);
      var path='../database/api/member.php';
       e.preventDefault();
@@ -316,17 +316,17 @@
         dataType:'json',
         url:path,
         success:function(response){
-          if(response.status===200)
-            {
-             $("#feedback").css({'display':'block'});
-             $('#data-show').html(response.mess);
+         if(response.status===200)
+           {
+            $("#feedback").css({'display':'block'});
+            $('#data-show').html(response.mess);
              document.getElementById("member-form").reset();
-                $("#save-id").html('Save');
+             $("#save-id").html('Save');
             }
             else if(response.status===404){
              $("#feedback").css({'display':'block'});
              $('#data-show').html(response.me);
-              $("#save-id").html('Save');
+             $("#save-id").html('Save');
             }
           }
         });

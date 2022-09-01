@@ -68,26 +68,23 @@
     alert("hello");
    });
 
-    async function set()
+    async function loadMdata()
       {
       var path='../database/api/getmember.php';
        await  axios.get(path)
        .then(function(response){
          $("#tcontent").html(template(response.data));
           console.log(response.data);
-         })
-         .catch(function(error){
+        })
+        .catch(function(error){
             console.log(error);
-          });
+         });
 
      //$("p").html(template(data));
      }
   (function(){
-    var data={
-     'name':'jone doe',
-     'email':'xx@example.com'
-    };
-   set();
+
+   loadMdata();
   })();
 </script>
 
