@@ -8,7 +8,6 @@ include('./include/navbar.php');
     <div id="content">
         <!-- Topbar -->
        <?php include('./include/topBar.php');?>
-
         <!-- End of Topbar -->
         <!-- Begin Page Content -->
         <div class="container-fluid">

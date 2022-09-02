@@ -26,16 +26,18 @@
             <div class="card  o-hidden border-0 shadow-lg my-5"
             style="border-top-left-radius: 60px!important;
             border-bottom-left-radius: 57px!important;
-">
-                <div class="card-body p-0">
-                    <!-- Nested Row within Card Body -->
+             ">
+               <div class="card-body p-0">
+                 <!-- Nested Row within Card Body -->
                     <div class="row">
-                        <div class="col-lg-6 d-none d-lg-block "
-                        style="background:url(
+                      <div class="col-lg-6 d-none d-lg-block"
+                        style="
+                        background:url(
                         http://www.peaceforthestorm.com/wp-content/uploads/2016/04/The-Holy-Bible.png);
                         background-position:center;
-                        background-size:cover">
-                        </div>
+                        background-size:cover"
+                       >
+                      </div>
                         <div class="col-lg-6">
                           <div class="p-5">
                             <div class="text-center">

@@ -1,10 +1,10 @@
 
 <!-- Footer -->
 <footer class="sticky-footer bg-white" style="
-    background: #fff;
-    border-top: 1px solid #dee2e6;
-    color: #869099;
-    padding: 1rem;
+   background: #fff;
+   border-top: 1px solid #dee2e6;
+   color: #869099;
+   padding: 1rem;
 ">
  <div class="container my-auto">
  <div class="copyright  my-auto">
@@ -15,7 +15,5 @@
 </footer>
 <!-- End of Footer -->
 </div>
-
 </body>
-
 </html>

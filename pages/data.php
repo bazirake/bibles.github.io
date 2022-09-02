@@ -79,7 +79,6 @@
         .catch(function(error){
             console.log(error);
          });
-
      //$("p").html(template(data));
      }
   (function(){
