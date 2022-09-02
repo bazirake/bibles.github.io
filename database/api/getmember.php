@@ -1,6 +1,6 @@
 <?php
 include '../connection.php';
-$sql_data= "SELECT * FROM member";
+$sql_data= "SELECT * FROM member ORDER BY id DESC";
 $sql_run1=pg_query($con,$sql_data);
 if ($sql_run1)
 {
@@ -11,10 +11,10 @@ if ($sql_run1)
   while($result=pg_fetch_object($sql_run1))
    {
     $dd=array('id'=>$i,
-        'mid'=>$result->id,
-        'fname'=>$result->fname,
-       'lname'=>$result->lname,
-       'email'=>$result->email,
+      'mid'=>$result->id,
+      'fname'=>$result->fname,
+      'lname'=>$result->lname,
+      'email'=>$result->email,
        'phone'=>$result->phone,
        'dates'=>$result->dobirth,
        'country'=>$result->county,
@@ -26,7 +26,7 @@ if ($sql_run1)
        'localc'=>$result->localcom,
        'currentc'=>$result->currentcom
        );
-    array_push($res,$dd);
+       array_push($res,$dd);
     $i++;
     }
    $ress=sendData($res,200);

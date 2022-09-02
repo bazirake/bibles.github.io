@@ -43,26 +43,26 @@
                             <div class="text-center">
                               <h1 class="h4 text-gray-900 mb-4">Scripture Union Admin</h1>
                             </div>
-                             <form class="user">
+                             <form class="user" method="post">
                                 <div class="form-group">
                                      <input type="email" class="form-control form-control-user"
                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                          placeholder="Enter Email Address...">
+                                          placeholder="Enter Email Address..." name="email">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control form-control-user"
-                                               id="exampleInputPassword" placeholder="Password">
+                                               id="exampleInputPassword" name="password" placeholder="Password">
                                     </div>
                                     <div class="form-group">
-                                        <div class="custom-control custom-checkbox small">
+                                      <div class="custom-control custom-checkbox small">
                                           <input type="checkbox" class="custom-control-input" id="customCheck">
-                                            <label class="custom-control-label" for="customCheck">Remember
-                                                Me</label>
-                                        </div>
+                                       <label class="custom-control-label" for="customCheck">Remember
+                                              Me</label>
+                                      </div>
                                     </div>
-                                    <a href="index.php" class="btn btn-primary btn-user btn-block">
-                                      Login
-                                    </a>
+                                    <button type="submit" class="btn btn-primary btn-user btn-block">
+                                       Login
+                                    </button>
                                     <hr>
                                     <a href="index.php" class="btn btn-google btn-user ">
                                       <i class="fab fa-google fa-fw"></i> Login with Google
@@ -74,8 +74,9 @@
                                 <hr>
                                 <div class="text-center">
                                     <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                    </br>
+                                    <span id="err-feedback" class="text-danger"></span>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -83,19 +84,43 @@
             </div>
         </div>
     </div>
-
 </div>
-
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <!-- Core plugin JavaScript-->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
 <!-- Custom scripts for all pages-->
 <script src="js/sb-admin-2.min.js"></script>
+<script>
+ $('.user').submit(function (e) {
+     e.preventDefault();
+    var fdata=$(this).serialize();
+    Login(fdata);
+  });
+
+   async function Login(data)
+    {
+    var path='../database/api/login.php';
+    await axios.post(path,data).then(function(response){
+      if(response.data.codes===200)
+       {
+        window.location.href='index.php';
+       }
+      else if(response.data.codes===404)
+       {
+        $("#err-feedback").html('Incorrect user email or password');
+        }
+
+     }).catch(function(error){
+      alert(error);
+    })
+   }
+
+  (function () {
+  })();
+</script>
 
 </body>
-
 </html>
