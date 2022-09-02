@@ -250,9 +250,9 @@ include('./include/navbar.php');
                  <td>{{phone}}</td>
                  <td>{{dates}}</td>
                  <td>
-                   <a class="add" ><i class="far fa-eye"></i></a>
-                   <a class="add" ><i class="fas fa-edit"></i></a>
-                   <a class="add" ><i class="far fa-trash-alt"></i></a>
+                   <a class="add" title="View Details"><i class="far fa-eye"></i></a>
+                   <a class="add" title="Edit member"><i class="fas fa-edit"></i></a>
+                   <a class="add" title="Delete member"><i class="far fa-trash-alt"></i></a>
                  </td>
              </tr>
          {{/each}}
